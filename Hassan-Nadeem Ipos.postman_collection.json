@@ -1,0 +1,372 @@
+{
+	"info": {
+		"_postman_id": "16ba6188-004e-45e0-9185-3547d40ac432",
+		"name": "Hassan-Nadeem Ipos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "32413792"
+	},
+	"item": [
+		{
+			"name": "Hassan-Nadeem Ipos",
+			"item": [
+				{
+					"name": "tblcontractmanagerdet",
+					"item": [
+						{
+							"name": "tblcontractmanagerdet POST API",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"ContractNo\": \"12345\",\r\n    \"DebtorCode\": \"12345\",\r\n    \"StockCode\": \"12345\",\r\n    \"StockDescription\": \"NADEEM\",\r\n    \"CostPrice\": \"500\",\r\n    \"NormalPrice\": \"300\",\r\n    \"ContractPrice\": \"300\",\r\n    \"Qty\": \"this is first Qty\",\r\n    \"Blank1\": \"this is first Blank1\",\r\n    \"Blank2\": \"this is first Blank2\",\r\n    \"UserName\": \"this is first UserName\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://localhost:3000/api/v1/tblcontractmanagerdet"
+							},
+							"response": []
+						},
+						{
+							"name": "tblcontractmanagerdet GETALL API",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"ContractNo\": \"12345\",\r\n    \"DebtorCode\": \"12345\",\r\n    \"StockCode\": \"12345\",\r\n    \"StockDescription\": \"Hassan\",\r\n    \"CostPrice\": \"500\",\r\n    \"NormalPrice\": \"300\",\r\n    \"ContractPrice\": \"300\",\r\n    \"Qty\": \"this is first Qty\",\r\n    \"Blank1\": \"this is first Blank1\",\r\n    \"Blank2\": \"this is first Blank2\",\r\n    \"UserName\": \"this is first UserName\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://localhost:3000/api/v1/tblcontractmanagerdet"
+							},
+							"response": []
+						},
+						{
+							"name": "tblcontractmanagerdet SINGLE GET API",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"ContractNo\": \"12345\",\r\n    \"DebtorCode\": \"12345\",\r\n    \"StockCode\": \"12345\",\r\n    \"StockDescription\": \"Hassan\",\r\n    \"CostPrice\": \"500\",\r\n    \"NormalPrice\": \"300\",\r\n    \"ContractPrice\": \"300\",\r\n    \"Qty\": \"this is first Qty\",\r\n    \"Blank1\": \"this is first Blank1\",\r\n    \"Blank2\": \"this is first Blank2\",\r\n    \"UserName\": \"this is first UserName\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://localhost:3000/api/v1/tblcontractmanagerdet/5"
+							},
+							"response": []
+						},
+						{
+							"name": "tblcontractmanagerdet UPDATE API",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"ContractNo\": \"12345\",\r\n    \"DebtorCode\": \"12345\",\r\n    \"StockCode\": \"12345\",\r\n    \"StockDescription\": \"ZOHAIB\",\r\n    \"CostPrice\": \"500\",\r\n    \"NormalPrice\": \"300\",\r\n    \"ContractPrice\": \"300\",\r\n    \"Qty\": \"this is first Qty\",\r\n    \"Blank1\": \"this is first Blank1\",\r\n    \"Blank2\": \"this is first Blank2\",\r\n    \"UserName\": \"this is first UserName\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://localhost:3000/api/v1/tblcontractmanagerdet/5"
+							},
+							"response": []
+						},
+						{
+							"name": "tblcontractmanagerdet SINGLE DELETE API",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"ContractNo\": \"12345\",\r\n    \"DebtorCode\": \"12345\",\r\n    \"StockCode\": \"12345\",\r\n    \"StockDescription\": \"Hassan\",\r\n    \"CostPrice\": \"500\",\r\n    \"NormalPrice\": \"300\",\r\n    \"ContractPrice\": \"300\",\r\n    \"Qty\": \"this is first Qty\",\r\n    \"Blank1\": \"this is first Blank1\",\r\n    \"Blank2\": \"this is first Blank2\",\r\n    \"UserName\": \"this is first UserName\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://localhost:3000/api/v1/tblcontractmanagerdet/3"
+							},
+							"response": []
+						},
+						{
+							"name": "tblcontractmanagerdet ALL DELETE API Copy",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"ContractNo\": \"12345\",\r\n    \"DebtorCode\": \"12345\",\r\n    \"StockCode\": \"12345\",\r\n    \"StockDescription\": \"Hassan\",\r\n    \"CostPrice\": \"500\",\r\n    \"NormalPrice\": \"300\",\r\n    \"ContractPrice\": \"300\",\r\n    \"Qty\": \"this is first Qty\",\r\n    \"Blank1\": \"this is first Blank1\",\r\n    \"Blank2\": \"this is first Blank2\",\r\n    \"UserName\": \"this is first UserName\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://localhost:3000/api/v1/tblcontractmanagerdet"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "tbldebtor",
+					"item": [
+						{
+							"name": "tbldebtor POST API",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"DebtorCode\": \"12345\",\r\n    \"DebtorName\": \"zohaib\",\r\n    \"DebtorType\": \"12345\",\r\n    \"BankName\": \"Islamic\",\r\n    \"BankAccName\": \"500\",\r\n    \"BankAccNo\": \"300\",\r\n    \"BankBranchCode\": \"300\",\r\n    \"BankBranName\": \"this is first Qty\",\r\n    \"DebtorInitials\": \"this is first DebtorInitials\",\r\n    \"DebtorTitle\": \"this is first DebtorTitle\",\r\n    \"DebtorJoinDate\": \"22-fe-2024\",\r\n    \"IDNumber\": \"22-fe-2024\",\r\n    \"DebtorAdd1\": \"22-fe-2024\",\r\n    \"DebtorAdd2\": \"22-fe-2024\",\r\n    \"DebtorAdd3\": \"22-fe-2024\",\r\n    \"DebtorAddPosCode\": \"22-fe-2024\",\r\n    \"DebtorPost1\": \"22-fe-2024\",\r\n    \"DebtorPost2\": \"22-fe-2024\",\r\n    \"DebtorPost3\": \"22-fe-2024\",\r\n    \"DebtorPostalCode\": \"22-fe-2024\",\r\n    \"DebtorCity\": \"22-fe-2024\",\r\n    \"DebtorCountry\": \"22-fe-2024\",\r\n    \"DebtorContact\": \"22-fe-2024\",\r\n    \"DebtorCell\": \"22-fe-2024\",\r\n    \"DebtorPhone\": \"123456789\",\r\n    \"DebtorFax\": \"hello\",\r\n    \"DebtorEMail\": \"123456789\",\r\n    \"VatReg\": \"123456789\",\r\n    \"VatRegNo\": \"123456789\",\r\n    \"AccountSystem\": \"123456789\",\r\n    \"AccTerms\": \"123456789\",\r\n    \"AcctPrice\": \"123456789\",\r\n    \"DiscPerc\": \"123456789\",\r\n    \"InterestPercentage\": \"123456789\",\r\n    \"CreditLimit\": \"123456789\",\r\n    \"CurrentBalance\": \"123456789\",\r\n    \"BalanceForward\": \"123456789\",\r\n    \"StopDate\": \"123456789\",\r\n    \"StopBy\": \"123456789\",\r\n    \"PrintStatement\": \"123456789\",\r\n    \"LastBF\": \"123456789\",\r\n    \"blank\": \"123456789\",\r\n    \"30days\": \"123456789\",\r\n    \"60days\": \"123456789\",\r\n    \"90days\": \"123456789\",\r\n    \"120days\": \"123456789\",\r\n    \"150days\": \"123456789\",\r\n    \"180days\": \"123456789\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://localhost:3000/api/v1/tbldebtor"
+							},
+							"response": []
+						},
+						{
+							"name": "tbldebtor GETALL API",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"DebtorCode\": \"12345\",\r\n    \"DebtorName\": \"Hassan\",\r\n    \"DebtorType\": \"12345\",\r\n    \"BankName\": \"Islamic\",\r\n    \"BankAccName\": \"500\",\r\n    \"BankAccNo\": \"300\",\r\n    \"BankBranchCode\": \"300\",\r\n    \"BankBranName\": \"this is first Qty\",\r\n    \"DebtorInitials\": \"this is first DebtorInitials\",\r\n    \"DebtorTitle\": \"this is first DebtorTitle\",\r\n    \"DebtorJoinDate\": \"22-fe-2024\",\r\n    \"IDNumber\": \"22-fe-2024\",\r\n    \"DebtorAdd1\": \"22-fe-2024\",\r\n    \"DebtorAdd2\": \"22-fe-2024\",\r\n    \"DebtorAdd3\": \"22-fe-2024\",\r\n    \"DebtorAddPosCode\": \"22-fe-2024\",\r\n    \"DebtorPost1\": \"22-fe-2024\",\r\n    \"DebtorPost2\": \"22-fe-2024\",\r\n    \"DebtorPost3\": \"22-fe-2024\",\r\n    \"DebtorPostalCode\": \"22-fe-2024\",\r\n    \"DebtorCity\": \"22-fe-2024\",\r\n    \"DebtorCountry\": \"22-fe-2024\",\r\n    \"DebtorContact\": \"22-fe-2024\",\r\n    \"DebtorCell\": \"22-fe-2024\",\r\n    \"DebtorPhone\": \"123456789\",\r\n    \"DebtorFax\": \"hello\",\r\n    \"DebtorEMail\": \"123456789\",\r\n    \"VatReg\": \"123456789\",\r\n    \"VatRegNo\": \"123456789\",\r\n    \"AccountSystem\": \"123456789\",\r\n    \"AccTerms\": \"123456789\",\r\n    \"AcctPrice\": \"123456789\",\r\n    \"DiscPerc\": \"123456789\",\r\n    \"InterestPercentage\": \"123456789\",\r\n    \"CreditLimit\": \"123456789\",\r\n    \"CurrentBalance\": \"123456789\",\r\n    \"BalanceForward\": \"123456789\",\r\n    \"StopDate\": \"123456789\",\r\n    \"StopBy\": \"123456789\",\r\n    \"PrintStatement\": \"123456789\",\r\n    \"LastBF\": \"123456789\",\r\n    \"blank\": \"123456789\",\r\n    \"30days\": \"123456789\",\r\n    \"60days\": \"123456789\",\r\n    \"90days\": \"123456789\",\r\n    \"120days\": \"123456789\",\r\n    \"150days\": \"123456789\",\r\n    \"180days\": \"123456789\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://localhost:3000/api/v1/tbldebtor/"
+							},
+							"response": []
+						},
+						{
+							"name": "tbldebtor SINGLE GET API",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://localhost:3000/api/v1/tbldebtor/11"
+							},
+							"response": []
+						},
+						{
+							"name": "tbldebtor UPDATE API",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"DebtorCode\": \"12345\",\r\n    \"DebtorName\": \"rana\",\r\n    \"DebtorType\": \"12345\",\r\n    \"BankName\": \"Islamic\",\r\n    \"BankAccName\": \"500\",\r\n    \"BankAccNo\": \"300\",\r\n    \"BankBranchCode\": \"300\",\r\n    \"BankBranName\": \"this is first Qty\",\r\n    \"DebtorInitials\": \"this is first DebtorInitials\",\r\n    \"DebtorTitle\": \"this is first DebtorTitle\",\r\n    \"DebtorJoinDate\": \"22-fe-2024\",\r\n    \"IDNumber\": \"22-fe-2024\",\r\n    \"DebtorAdd1\": \"22-fe-2024\",\r\n    \"DebtorAdd2\": \"22-fe-2024\",\r\n    \"DebtorAdd3\": \"22-fe-2024\",\r\n    \"DebtorAddPosCode\": \"22-fe-2024\",\r\n    \"DebtorPost1\": \"22-fe-2024\",\r\n    \"DebtorPost2\": \"22-fe-2024\",\r\n    \"DebtorPost3\": \"22-fe-2024\",\r\n    \"DebtorPostalCode\": \"22-fe-2024\",\r\n    \"DebtorCity\": \"22-fe-2024\",\r\n    \"DebtorCountry\": \"22-fe-2024\",\r\n    \"DebtorContact\": \"22-fe-2024\",\r\n    \"DebtorCell\": \"22-fe-2024\",\r\n    \"DebtorPhone\": \"123456789\",\r\n    \"DebtorFax\": \"hello\",\r\n    \"DebtorEMail\": \"123456789\",\r\n    \"VatReg\": \"123456789\",\r\n    \"VatRegNo\": \"123456789\",\r\n    \"AccountSystem\": \"123456789\",\r\n    \"AccTerms\": \"123456789\",\r\n    \"AcctPrice\": \"123456789\",\r\n    \"DiscPerc\": \"123456789\",\r\n    \"InterestPercentage\": \"123456789\",\r\n    \"CreditLimit\": \"123456789\",\r\n    \"CurrentBalance\": \"123456789\",\r\n    \"BalanceForward\": \"123456789\",\r\n    \"StopDate\": \"123456789\",\r\n    \"StopBy\": \"123456789\",\r\n    \"PrintStatement\": \"123456789\",\r\n    \"LastBF\": \"123456789\",\r\n    \"blank\": \"123456789\",\r\n    \"30days\": \"123456789\",\r\n    \"60days\": \"123456789\",\r\n    \"90days\": \"123456789\",\r\n    \"120days\": \"123456789\",\r\n    \"150days\": \"123456789\",\r\n    \"180days\": \"123456789\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://localhost:3000/api/v1/tbldebtor/10"
+							},
+							"response": []
+						},
+						{
+							"name": "tbldebtor SINGLE DELETE API",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://localhost:3000/api/v1/tbldebtor/10"
+							},
+							"response": []
+						},
+						{
+							"name": "tbldebtor ALL DELETE API Copy",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"ContractNo\": \"12345\",\r\n    \"DebtorCode\": \"12345\",\r\n    \"StockCode\": \"12345\",\r\n    \"StockDescription\": \"Hassan\",\r\n    \"CostPrice\": \"500\",\r\n    \"NormalPrice\": \"300\",\r\n    \"ContractPrice\": \"300\",\r\n    \"Qty\": \"this is first Qty\",\r\n    \"Blank1\": \"this is first Blank1\",\r\n    \"Blank2\": \"this is first Blank2\",\r\n    \"UserName\": \"this is first UserName\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://localhost:3000/api/v1/tbldebtor/"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "tbldebtorscounters",
+					"item": [
+						{
+							"name": "tbldebtorscounters POST API",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"ContractNo\": \"hassan123\",\r\n    \"DebitNo\": \"12345\",\r\n    \"CreditNo\": \"12345\",\r\n    \"PaymentNo\": \"12345\",\r\n    \"ClaimNo\": \"500\",\r\n    \"AgingNo\": \"300\",\r\n    \"SettlementNo\": \"300\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://localhost:3000/api/v1/tbldebtorscounters"
+							},
+							"response": []
+						},
+						{
+							"name": "tbldebtorscounters GETALL API",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"DebtorCode\": \"12345\",\r\n    \"DebtorName\": \"Hassan\",\r\n    \"DebtorType\": \"12345\",\r\n    \"BankName\": \"Islamic\",\r\n    \"BankAccName\": \"500\",\r\n    \"BankAccNo\": \"300\",\r\n    \"BankBranchCode\": \"300\",\r\n    \"BankBranName\": \"this is first Qty\",\r\n    \"DebtorInitials\": \"this is first DebtorInitials\",\r\n    \"DebtorTitle\": \"this is first DebtorTitle\",\r\n    \"DebtorJoinDate\": \"22-fe-2024\",\r\n    \"IDNumber\": \"22-fe-2024\",\r\n    \"DebtorAdd1\": \"22-fe-2024\",\r\n    \"DebtorAdd2\": \"22-fe-2024\",\r\n    \"DebtorAdd3\": \"22-fe-2024\",\r\n    \"DebtorAddPosCode\": \"22-fe-2024\",\r\n    \"DebtorPost1\": \"22-fe-2024\",\r\n    \"DebtorPost2\": \"22-fe-2024\",\r\n    \"DebtorPost3\": \"22-fe-2024\",\r\n    \"DebtorPostalCode\": \"22-fe-2024\",\r\n    \"DebtorCity\": \"22-fe-2024\",\r\n    \"DebtorCountry\": \"22-fe-2024\",\r\n    \"DebtorContact\": \"22-fe-2024\",\r\n    \"DebtorCell\": \"22-fe-2024\",\r\n    \"DebtorPhone\": \"123456789\",\r\n    \"DebtorFax\": \"hello\",\r\n    \"DebtorEMail\": \"123456789\",\r\n    \"VatReg\": \"123456789\",\r\n    \"VatRegNo\": \"123456789\",\r\n    \"AccountSystem\": \"123456789\",\r\n    \"AccTerms\": \"123456789\",\r\n    \"AcctPrice\": \"123456789\",\r\n    \"DiscPerc\": \"123456789\",\r\n    \"InterestPercentage\": \"123456789\",\r\n    \"CreditLimit\": \"123456789\",\r\n    \"CurrentBalance\": \"123456789\",\r\n    \"BalanceForward\": \"123456789\",\r\n    \"StopDate\": \"123456789\",\r\n    \"StopBy\": \"123456789\",\r\n    \"PrintStatement\": \"123456789\",\r\n    \"LastBF\": \"123456789\",\r\n    \"blank\": \"123456789\",\r\n    \"30days\": \"123456789\",\r\n    \"60days\": \"123456789\",\r\n    \"90days\": \"123456789\",\r\n    \"120days\": \"123456789\",\r\n    \"150days\": \"123456789\",\r\n    \"180days\": \"123456789\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://localhost:3000/api/v1/tbldebtorscounters/"
+							},
+							"response": []
+						},
+						{
+							"name": "tbldebtorscounters SINGLE GET API",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://localhost:3000/api/v1/tbldebtorscounters/1"
+							},
+							"response": []
+						},
+						{
+							"name": "tbldebtorscounters UPDATE API",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"ContractNo\": \"arif123\",\r\n    \"DebitNo\": \"12345\",\r\n    \"CreditNo\": \"12345\",\r\n    \"PaymentNo\": \"12345\",\r\n    \"ClaimNo\": \"500\",\r\n    \"AgingNo\": \"300\",\r\n    \"SettlementNo\": \"300\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://localhost:3000/api/v1/tbldebtorscounters/1"
+							},
+							"response": []
+						},
+						{
+							"name": "tbldebtor SINGLE DELETE API",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://localhost:3000/api/v1/tbldebtorscounters/1"
+							},
+							"response": []
+						},
+						{
+							"name": "tblcontractmanagerdet ALL DELETE API Copy",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://localhost:3000/api/v1/tbldebtorscounters/"
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
